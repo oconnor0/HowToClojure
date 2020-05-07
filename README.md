@@ -16,15 +16,15 @@ Notes on how I develop Clojure and ClojureScript
 
 ### Enable linting
 
-1. Install clj-kondo.
+1. Install [clj-kondo](https://github.com/borkdude/clj-kondo).
 
     ```
     scoop bucket add scoop-clojure https://github.com/littleli/scoop-clojure
     scoop install clj-kondo
     ```
 
-2. Ctrl-Shift-P, Install Package, SublimeLinter.
-3. Ctrl-Shift-P, Install Package, SublimeLinter-contrib-clj-kondo.
+2. Ctrl-Shift-P, Install Package, [SublimeLinter](http://www.sublimelinter.com/en/stable/).
+3. Ctrl-Shift-P, Install Package, [SublimeLinter-contrib-clj-kondo](https://github.com/ToxicFrog/SublimeLinter-contrib-clj-kondo/).
 4. Preferences > Package Settings > Sublime Linter > Settings
 
     ```json
@@ -47,7 +47,7 @@ Notes on how I develop Clojure and ClojureScript
 
 ### Enable F1 to open docs via Zeal.
 
-1. Install Zeal, zeal-user-contrib, and the ClojureScript docset.
+1. Install [Zeal](https://zealdocs.org/https://zealdocs.org/), [zeal-user-contrib](https://github.com/jmerle/zeal-user-contrib), and the ClojureScript docset.
 
     ```
     $ scoop install zeal
