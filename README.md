@@ -1,5 +1,6 @@
 # HowToClojure
-Notes on how I develop Clojure and ClojureScript
+
+Notes on how I develop Clojure and ClojureScript inspired by https://github.com/PetrKryslUCSD/HowToUseJuliaWithSublimeText3
 
 ## Install Clojure and ClojureScript
 
