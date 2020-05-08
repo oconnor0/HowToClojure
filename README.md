@@ -115,3 +115,5 @@ Notes on how I develop Clojure and ClojureScript inspired by https://github.com/
 ```
 
 7. Zeal doesn't pass the entire `clj->js` to Zeal, but only passes `clj-js`.
+
+8. Auto-completion doesn't include final `?` in symbol list.
