@@ -88,3 +88,13 @@ Notes on how I develop Clojure and ClojureScript inspired by https://github.com/
 1. Ctrl-Shift-P, Disable Package, Clojure.
 2. Clone https://github.com/oconnor0/Clojures to "Sublime Text 3\Packages\". (Maybe just until https://github.com/sublimehq/Packages/pull/2355 is resolved?)
 3. Except that Clojures does some things around syntax scopes so that Ctrl-Shift-Space better expands its scope.
+
+## Limitations with the current Clojure syntax highlighting
+
+1. The first initial colon in keywords is given `punctuation.definition.keyword.clojure`. A second colon in keywords is not given that scope and is treated differently. This also caused Expand Selection to Scope problems and that aspect can be "fixed" by https://github.com/oconnor0/Clojures/commit/ae1548affd0bf32bbde9035590f55995e0726f5b#diff-b2ba6bbcd236c06e9be213f5a0d06eb3L74
+
+2. Other symbols in forms (besides the first, constants, keywords, etc.) are given no scope. Expand Selection to Scope when on one of those symbols just expands to the enclosing brackets instead of first selecting the current symbol. Giving them a scope resolves this: https://github.com/oconnor0/Clojures/commit/ae1548affd0bf32bbde9035590f55995e0726f5b#diff-b2ba6bbcd236c06e9be213f5a0d06eb3R105
+
+3. `(comment ...)` forms are not supported.
+
+4. `#_` does not affect highlighting; nor does it create a new scope for so that Expand Selection to Scope grabs it first.
