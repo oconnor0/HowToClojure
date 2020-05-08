@@ -113,3 +113,5 @@ Notes on how I develop Clojure and ClojureScript inspired by https://github.com/
   (c)
   (d))
 ```
+
+7. Zeal doesn't pass the entire `clj->js` to Zeal, but only passes `clj-js`.
