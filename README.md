@@ -98,3 +98,5 @@ Notes on how I develop Clojure and ClojureScript inspired by https://github.com/
 3. `(comment ...)` forms are not supported.
 
 4. `#_` does not affect highlighting; nor does it create a new scope for so that Expand Selection to Scope grabs it first.
+
+5. When using Monoid `->` converts to an arrow, but `<-` does not. Fira Code does not have this problem.
