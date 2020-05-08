@@ -100,3 +100,16 @@ Notes on how I develop Clojure and ClojureScript inspired by https://github.com/
 4. `#_` does not affect highlighting; nor does it create a new scope for so that Expand Selection to Scope grabs it first.
 
 5. When using Monoid `->` converts to an arrow, but `<-` does not. Fira Code does not have this problem.
+
+6. Folding doesn't work on a `defn` with multiline arguments like
+
+```clojure
+(defn f [a
+         b
+         c
+         d]
+  (a)
+  (b)
+  (c)
+  (d))
+```
