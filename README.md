@@ -28,8 +28,53 @@ Notes on how I develop Clojure and ClojureScript inspired by https://github.com/
     scoop bucket add scoop-clojure https://github.com/littleli/scoop-clojure
     scoop install clojure
     ```
+    
+## Configure Sublime Merge
+
+1. In Sublime Merge, Preferences > Edit Settings. Put the following in:
+
+    ```json
+    {
+        "caret_style": "solid",
+        "caret_extra_top": 4,
+        "caret_extra_bottom": 4,
+        "caret_extra_width": 1,
+        "font_face": "Monoid",
+        "font_size": 9,
+    }
+    ```
 
 ## Configure Sublime Text
+
+1. In Sublime Merge, Preferences > Settings. Put the following in:
+
+    ```json
+    {
+        "color_scheme": "Packages/Color Scheme - Default/Breakers.sublime-color-scheme",
+        "always_show_minimap_viewport": true,
+        "draw_minimap_border": true,
+        "animation_enabled": false,
+        "font_face": "Monoid",
+        "font_size": 9,
+        "rulers":
+        [
+            80,
+            100
+        ],
+        "highlight_line": true,
+        "hardware_acceleration": "opengl",
+        "ignored_packages":
+        [
+            "Clojure",
+            "Vintage",
+        ],
+        "theme": "Adaptive.sublime-theme",
+        "translate_tabs_to_spaces": true,
+        "drag_text": false,
+        "scroll_speed": 0,
+        "overlay_scroll_bars": "disabled",
+    }
+    ```
 
 ### Enable linting
 
