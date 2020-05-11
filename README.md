@@ -2,6 +2,10 @@
 
 Notes on how I develop Clojure and ClojureScript inspired by https://github.com/PetrKryslUCSD/HowToUseJuliaWithSublimeText3
 
+## Set up Git
+
+1. Always rebase on pull: `git config --global pull.rebase true`
+
 ## Install Clojure and ClojureScript
 
 1. Install Java, Clojure, and ClojureScript
