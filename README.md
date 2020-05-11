@@ -6,6 +6,18 @@ Notes on how I develop Clojure and ClojureScript inspired by https://github.com/
 
 1. Always rebase on pull: `git config --global pull.rebase true`
 
+## Remap Caps Lock to Alt
+
+1. Install [SharpKeys].
+
+    ```
+    scoop install sharpkeys
+    ```
+    
+2. Remap `Special: Caps Lock (00_3A)` to `Special: Left Alt (00_38)`.
+
+[SharpKeys]: https://github.com/randyrants/sharpkeys
+
 ## Install Clojure and ClojureScript
 
 1. Install Java, Clojure, and ClojureScript
