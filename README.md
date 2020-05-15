@@ -72,6 +72,7 @@ Notes on how I develop Clojure and ClojureScript inspired by https://github.com/
         "caret_extra_width": 1,
         "font_face": "Monoid",
         "font_size": 9,
+        "scroll_speed": 0,
     }
     ```
 
