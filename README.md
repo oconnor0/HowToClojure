@@ -2,15 +2,39 @@
 
 Notes on how I develop Clojure and ClojureScript inspired by https://github.com/PetrKryslUCSD/HowToUseJuliaWithSublimeText3
 
-## Set up Git
+## Install Scoop and Git
 
-1. Always rebase on pull: `git config --global pull.rebase true`
+1. In PowerShell, install Scoop.
+
+    ```powershell
+    Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+    iwr -useb get.scoop.sh | iex
+    ```
+    
+2. Install Git:
+
+    ```powershell
+    scoop install git
+    ```
+    
+3. Always rebase on pull: `git config --global pull.rebase true`
+    
+4. Add other Scoop buckets:
+
+    ```powershell
+    scoop bucket add java
+    scoop bucket add extras
+    scoop bucket add scoop-clojure https://github.com/littleli/scoop-clojure
+    ```
+    
+    The installation of these buckets will be duplicated below to document where various tools come from.
 
 ## Remap Caps Lock to Alt
 
 1. Install [SharpKeys].
 
-    ```
+    ```powershell
+    scoop bucket add extras
     scoop install sharpkeys
     ```
     
@@ -29,9 +53,16 @@ Notes on how I develop Clojure and ClojureScript inspired by https://github.com/
     scoop install clojure
     ```
     
-## Configure Sublime Merge
+## Install and configure Sublime Merge
 
-1. In Sublime Merge, Preferences > Edit Settings. Put the following in:
+1. Either download the dev version from the [Sublime Discord](https://discord.gg/D43Pecu) or via Scoop:
+
+    ```powershell
+    scoop install extras
+    scoop install sublime-merge
+    ```
+
+2. In Sublime Merge, Preferences > Edit Settings. Put the following in:
 
     ```json
     {
@@ -46,7 +77,14 @@ Notes on how I develop Clojure and ClojureScript inspired by https://github.com/
 
 ## Configure Sublime Text
 
-1. In Sublime Merge, Preferences > Settings. Put the following in:
+1. Either download the dev version from the [Sublime Discord](https://discord.gg/D43Pecu) or via Scoop:
+
+    ```powershell
+    scoop install extras
+    scoop install sublime-text
+    ```
+    
+2. In Sublime Text, Preferences > Settings. Put the following in:
 
     ```json
     {
