@@ -51,9 +51,6 @@ Notes on how I develop Clojure and ClojureScript inspired by https://github.com/
     ```json
     {
         "color_scheme": "Packages/Color Scheme - Default/Breakers.sublime-color-scheme",
-        "always_show_minimap_viewport": true,
-        "draw_minimap_border": true,
-        "animation_enabled": false,
         "font_face": "Monoid",
         "font_size": 9,
         "rulers":
@@ -61,20 +58,37 @@ Notes on how I develop Clojure and ClojureScript inspired by https://github.com/
             80,
             100
         ],
+        "draw_minimap_border": true,
+        "always_show_minimap_viewport": true,
         "highlight_line": true,
+        "match_brackets": false,
+        "match_brackets_angle": false,
+        "match_brackets_braces": false,
+        "match_brackets_content": false,
+        "match_brackets_square": false,
+        "match_tags": false,
+        "line_padding_bottom": 1,
+        "line_padding_top": 1,
+        "drag_text": false,
+        // "translate_tabs_to_spaces": true,
+        "theme": "Adaptive.sublime-theme",
+        "scroll_speed": 0,
+        "tree_animation_enabled": false,
+        "animation_enabled": false,
+        "bold_folder_labels": true,
+        "overlay_scroll_bars": "disabled",
         "hardware_acceleration": "opengl",
         "ignored_packages":
         [
             "Clojure",
             "Vintage",
-        ],
-        "theme": "Adaptive.sublime-theme",
-        "translate_tabs_to_spaces": true,
-        "drag_text": false,
-        "scroll_speed": 0,
-        "overlay_scroll_bars": "disabled",
+        ],        
     }
     ```
+    
+### Install BracketHighlighter
+
+1. Ctrl-Shift-P, Install Package, [BracketHighlighter](https://packagecontrol.io/packages/BracketHighlighter).
 
 ### Enable linting
 
