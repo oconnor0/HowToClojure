@@ -215,7 +215,7 @@ Notes on how I develop Clojure and ClojureScript inspired by https://github.com/
 
 5. When using Monoid `->` converts to an arrow, but `<-` does not. Fira Code does not have this problem.
 
-6. Folding doesn't work on a `defn` with multiline arguments like
+6. Folding doesn't work on a `defn` with multiline arguments like: 
 
 ```clojure
 (defn f [a
@@ -228,6 +228,13 @@ Notes on how I develop Clojure and ClojureScript inspired by https://github.com/
   (d))
 ```
 
+Tracked in https://github.com/sublimehq/sublime_text/issues/3346
+
 7. Zeal doesn't pass the entire `clj->js` to Zeal, but only passes `clj-js`.
 
+Resolved in https://github.com/vaanwd/Zeal/pull/30/commits/5907edb50152c24fc9c1c9d118f73a1fc0c5b0e7
+
 8. Auto-completion doesn't include final `?` in symbol list.
+
+Tracked in https://github.com/sublimehq/Packages/issues/2361
+
