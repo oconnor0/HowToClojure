@@ -197,6 +197,18 @@ Notes on how I develop Clojure and ClojureScript inspired by https://github.com/
     }
     ```
     
+    If using https://github.com/FichteForks/sublime-zeal/tree/rewrite, replace the settings with:
+    
+    ```json
+    {
+        "zeal_command": "c:\\users\\oconnor\\scoop\\apps\\zeal\\current\\zeal.exe",
+        "docsets_user": [
+            { "name": "Clojure", "selector": "source.clojure - source.clojure.clojurescript" },
+            { "name": "ClojureScript", "selector": "source.clojurescript, source.clojure.clojurescript", "namespace": "cljs" },
+        ]
+    }
+    ```
+    
 ### Switch to Clojures
 
 1. Ctrl-Shift-P, Disable Package, Clojure.
