@@ -240,7 +240,7 @@ Notes on how I develop Clojure and ClojureScript inspired by https://github.com/
   (d))
 ```
 
-Tracked in https://github.com/sublimehq/sublime_text/issues/3346
+Tracked in https://github.com/sublimehq/sublime_text/issues/101, was https://github.com/sublimehq/sublime_text/issues/3346
 
 7. Zeal doesn't pass the entire `clj->js` to Zeal, but only passes `clj-js`.
 
