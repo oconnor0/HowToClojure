@@ -151,7 +151,7 @@ Notes on how I develop Clojure and ClojureScript inspired by https://github.com/
 3. Ctrl-Shift-P, Install Package, [SublimeLinter-contrib-clj-kondo](https://github.com/ToxicFrog/SublimeLinter-contrib-clj-kondo/).
 4. Preferences > Package Settings > Sublime Linter > Settings
 
-    ```json
+    ```javascript
     {
         "styles": [
             {
@@ -188,7 +188,7 @@ Notes on how I develop Clojure and ClojureScript inspired by https://github.com/
 7. Preferences > Package Settings > Zeal.
 8. Replace the settings with:
 
-    ```json
+    ```javascript
     {
       // "zeal_command": "%USERPROFILE%\\scoop\\apps\\zeal\\current\\zeal.exe",
       "zeal_command": "c:\\users\\oconnor\\scoop\\apps\\zeal\\current\\zeal.exe",
@@ -208,7 +208,7 @@ Notes on how I develop Clojure and ClojureScript inspired by https://github.com/
     
     If using https://github.com/FichteForks/sublime-zeal/tree/rewrite, replace the settings with:
     
-    ```json
+    ```javascript
     {
         "zeal_command": "c:\\users\\oconnor\\scoop\\apps\\zeal\\current\\zeal.exe",
         "docsets_user": [
