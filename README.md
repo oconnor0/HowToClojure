@@ -42,6 +42,15 @@ Notes on how I develop Clojure and ClojureScript inspired by https://github.com/
 
 [SharpKeys]: https://github.com/randyrants/sharpkeys
 
+## Install Fira Code
+
+1. Install Fira Code from Scoop.
+
+    ```powershell
+    scoop bucket add nerd-fonts
+    scoop install FiraCode
+    ```
+
 ## Install Clojure and ClojureScript
 
 1. Install Java, Clojure, and ClojureScript
@@ -64,13 +73,13 @@ Notes on how I develop Clojure and ClojureScript inspired by https://github.com/
 
 2. In Sublime Merge, Preferences > Edit Settings. Put the following in:
 
-    ```json
+    ```javascript
     {
         "caret_style": "solid",
         "caret_extra_top": 4,
         "caret_extra_bottom": 4,
         "caret_extra_width": 1,
-        "font_face": "Monoid",
+        "font_face": "Monoid", // or "Fira Code"
         "font_size": 9,
         "scroll_speed": 0,
     }
@@ -87,10 +96,10 @@ Notes on how I develop Clojure and ClojureScript inspired by https://github.com/
     
 2. In Sublime Text, Preferences > Settings. Put the following in:
 
-    ```json
+    ```javascript
     {
         "color_scheme": "Packages/Color Scheme - Default/Breakers.sublime-color-scheme",
-        "font_face": "Monoid",
+        "font_face": "Monoid", // or "Fira Code"
         "font_size": 9,
         "rulers":
         [
