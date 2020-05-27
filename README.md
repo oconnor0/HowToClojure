@@ -117,6 +117,8 @@ Notes on how I develop Clojure and ClojureScript inspired by https://github.com/
         "match_tags": false,
         "line_padding_bottom": 1,
         "line_padding_top": 1,
+	    "trim_trailing_white_space_on_save": true,
+	    "ensure_newline_at_eof_on_save": true,
         "drag_text": false,
         // "translate_tabs_to_spaces": true,
         "theme": "Adaptive.sublime-theme",
