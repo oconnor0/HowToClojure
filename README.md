@@ -147,6 +147,8 @@ Notes on how I develop Clojure and ClojureScript inspired by https://github.com/
     ```
     scoop bucket add scoop-clojure https://github.com/littleli/scoop-clojure
     scoop install clj-kondo
+    scoop install vcredist2010
+    scoop uninstall vcredist2010
     ```
 
 2. Ctrl-Shift-P, Install Package, [SublimeLinter](http://www.sublimelinter.com/en/stable/).
