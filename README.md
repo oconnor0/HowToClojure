@@ -62,6 +62,12 @@ Notes on how I develop Clojure and ClojureScript inspired by https://github.com/
     scoop install clojure
     ```
     
+2. Install shadow-cljs.
+
+    ```
+    yarn global add shadow-cljs
+    ```
+    
 ## Install and configure Sublime Merge
 
 1. Either download the dev version from the [Sublime Discord](https://discord.gg/D43Pecu) or via Scoop:
