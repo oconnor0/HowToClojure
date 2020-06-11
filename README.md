@@ -68,6 +68,18 @@ Notes on how I develop Clojure and ClojureScript inspired by https://github.com/
     yarn global add shadow-cljs
     ```
     
+3. Run a Clojure REPL.
+
+    ```
+    clj
+    ```
+    
+4. Run a ClojureScript REPL.
+
+    ```
+    clj -Sdeps '{:deps {org.clojure/clojurescript {:mvn/version \"1.10.758\"}}}' -m cljs.main
+    ```
+    
 ## Install and configure Sublime Merge
 
 1. Either download the dev version from the [Sublime Discord](https://discord.gg/D43Pecu) or via Scoop:
@@ -268,4 +280,5 @@ Resolved in https://github.com/vaanwd/Zeal/pull/30/commits/5907edb50152c24fc9c1c
 8. Auto-completion doesn't include final `?` in symbol list.
 
 Tracked in https://github.com/sublimehq/Packages/issues/2361
+
 
