@@ -236,6 +236,7 @@ Notes on how I develop Clojure and ClojureScript inspired by https://github.com/
         "docsets_user": [
             { "name": "Clojure", "selector": "source.clojure - source.clojure.clojurescript" },
             { "name": "ClojureScript", "selector": "source.clojurescript, source.clojure.clojurescript", "namespace": "cljs" },
+	    { "name": ".NET Framework", "selector": "source.cs", "namespace": "net" },
         ]
     }
     ```
